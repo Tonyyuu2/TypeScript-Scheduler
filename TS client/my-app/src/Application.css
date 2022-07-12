@@ -6,22 +6,18 @@
   min-width: 18rem;
   padding: 2rem 0;
 }
-
 .sidebar--centered {
   align-self: center;
 }
-
 .sidebar__separator {
   width: 90%;
   margin: 2rem 0;
   border: solid 1px;
-  color: darken(white, 5%);
+  color: #f2f2f2;
 }
-
 .sidebar__menu {
   flex: 1;
 }
-
 .sidebar__lhl {
   margin-top: 2rem;
 }
@@ -33,4 +29,4 @@
   margin: 2rem 0;
   padding: 0 2rem;
   width: 100%;
-}
+} /*# sourceMappingURL=Application.css.map *//*# sourceMappingURL=Application.css.map */

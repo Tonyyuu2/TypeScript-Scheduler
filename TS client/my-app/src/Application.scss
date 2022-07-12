@@ -5,26 +5,27 @@
   flex-direction: column;
   min-width: 18rem;
   padding: 2rem 0;
+  
+  &--centered    {
+    align-self: center;
+  }
+  
+  &__separator {
+    width: 90%;
+    margin: 2rem 0;
+    border: solid 1px;
+    color: #f2f2f2;
+  }
+  
+  &__menu {
+    flex: 1;
+  }
+  
+  &__lhl {
+    margin-top: 2rem;
+  }
 }
 
-.sidebar--centered {
-  align-self: center;
-}
-
-.sidebar__separator {
-  width: 90%;
-  margin: 2rem 0;
-  border: solid 1px;
-  color: darken(white, 5%);
-}
-
-.sidebar__menu {
-  flex: 1;
-}
-
-.sidebar__lhl {
-  margin-top: 2rem;
-}
 
 .schedule {
   display: flex;
@@ -33,4 +34,4 @@
   margin: 2rem 0;
   padding: 0 2rem;
   width: 100%;
-}
+}/*# sourceMappingURL=Application.css.map */
