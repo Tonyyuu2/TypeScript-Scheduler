@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Button from "./components/Button";
 
 function App() {
   return (
@@ -19,7 +20,11 @@ function App() {
             alt="Lighthouse Labs"
           />
         </section>
-        <section className="schedule"></section>
+        <section className="schedule">
+          <Button confirm={"confirm"} danger={"danger"} onClick={() => {}} disabled={false}>
+            hello
+          </Button>
+        </section>
       </main>
     </>
   );
